@@ -1,0 +1,163 @@
+body {
+	background-color: #E9EAED;
+}
+div#loading-screen{
+	background-color: #16a7da;
+	opacity: 1;
+	position: fixed;
+	z-index: 10;
+	top:0px;
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+}
+div#loading-screen > div#loading{
+	color: #ffffff;
+	width: 220px;
+	height: 19px;
+	margin: 270px 260px;
+	background-image: url(../../img/ajax-loader.gif);
+}
+.container {
+	width: 800px;
+	height: 600px;
+	/*margin: 0 auto;*/
+	background-color: #16a7da;
+
+	
+}
+.header {
+	width: 800px;
+	height: 56px;
+	background-color: #ffffff;
+	margin-bottom: 21px;
+	position: relative;
+}
+.title {
+	display: block;
+	width: 133px;
+	height: 45px;
+	margin-left: 18px;
+	margin-top: 13px;
+	float: left;
+	background-image: url(../../img/pobarvanka-napis.png);
+	
+}
+.logo {
+	display: block;
+	width: 128px;
+	height: 55px;
+	background-image: url(../../img/Powered-by-.png);	
+/* 	margin-right: 17px;
+	margin-top: 14px; */
+	float: right;
+	
+}
+.clearing {
+	clear: both;
+}
+.paint-menu{
+	height: 386px;
+	width: 198px;
+	margin-left: 18px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	float: left;
+}
+.barva{
+	height: 16px;
+	width: 48px;
+	background-image: url(../../img/barva.png);
+	
+	margin-top: 7px;
+	margin-left: 10px;
+}
+.color-input{
+	width: 164px;
+	margin-left: 17px;
+}
+#color{
+	width: 160px;
+}
+.thickness{
+	margin-left: 17px;
+	margin-top: 10px;
+}
+.picker{
+	display: inline-block;
+	height: 30px;
+	width: 60px;
+
+}
+
+.buttons{
+	width: 170px;
+	height: 60px;
+	margin-left: 15px;
+	margin-top: 20px;
+/* 	background-color: #003344; */
+}
+.undo{
+	height: 66px;
+	width: 59px;
+/* 	background-color: #445566; */
+/* 	margin-right: 5px; */
+/* 	margin-top: 8px; */
+	float: left;
+	background-image: url(../../img/back-arrow.gif);
+}
+.delete{
+	height: 66px;
+	width: 49px;
+/* 	background-color: #113344; */
+	margin-left: 0px;
+	float: left;
+	background-image: url(../../img/trash.gif);
+	
+}
+.redo{
+	height: 66px;
+	width: 59px;
+/* 	margin-top: 8px; */
+	float: right;
+	background-image: url(../../img/forward-arrow.png);
+/* 	background-color: #113344; */
+}	
+.forward{
+	width: 155px;
+	height: 64px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	float: left;
+	margin-left: 45px;
+	margin-top: 50px;
+}
+.naprej{
+	width: 110px;
+	height: 52px;
+	background-image: url(../../img/color-copy1_03.png);
+	margin-top: 10px;
+	margin-left: 25px;
+	
+}
+.naprej a{
+	width: 110px;
+	height: 52px;
+	margin-top: 10px;
+	margin-left: 25px;
+	
+}
+
+.canvas-container{
+	width: 557px;
+	height: 502px;
+	border-radius: 10px;
+	float: right;
+	margin-right: 17px;
+	background-color: #ffffff;
+	position: relative;
+	
+}
+.canvas-container canvas {
+	border-radius: 10px;
+}
